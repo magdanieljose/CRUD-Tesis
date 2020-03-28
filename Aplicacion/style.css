@@ -1,0 +1,197 @@
+#bodymain{
+     background-image: url("farma1.jpg");
+     background-size:cover; 
+}
+
+#divimagen{
+   position: absolute;
+  top: 100px;
+  right: 200px;
+   bottom: 100px;    
+}
+#divlogin{
+  margin-bottom: 15px;
+        background: #f7f7f7;
+        box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+        padding: 30px;
+    width: 500px;
+    height: 240px;
+    position: absolute; top: 150px;
+    position: absolute;bottom: 100px;
+    position: absolute;right: 40px;
+    position: absolute;left: 200px;
+
+}
+#sendregister{
+  position: absolute; top: 80px;
+    position: absolute;bottom: 100px;
+    position: absolute;right: 40px;
+    position: absolute;left: 200px;
+    width: 120px;
+    height: 50px;
+
+}
+#mensaje{
+  position: relative; top: 250px;
+    position: relative;bottom: 100px;
+    position: relative;right: 250px;
+    position: relative;left: 120px;
+
+}
+#divprincipal{
+  background-color: #347985;
+  width: 900px;
+  height: 500px;
+  border: 1px solid #eee;
+  position: absolute; top: 100px;
+    position: absolute;bottom: 100px;
+    position: absolute;right: 50px;
+    position: absolute;left: 350px;
+
+
+}
+#letralogin{
+  position: absolute; top: 60px;
+    position: absolute;bottom: 100px;
+    position: absolute;right: 50px;
+    position: absolute;left: 120px;
+
+}
+
+#registroempleado{
+  position: relative; top: 100px;
+  position: relative; bottom: 100px;
+  position: relative; left: 300px;
+  position: relative; right: 100px;
+}
+#mensaje{
+  position: relative; top: 50px;
+  position: relative; bottom: 100px;
+  position: relative; left: 100px;
+  position: relative; right: 100px;
+}
+#buscador{
+position:absolute; top:10px 
+position:absolute; bottom:25px 
+position:absolute; left:10px 
+position:absolute; right:70px   
+}
+
+#searchbutton{
+position:absolute; top:-100px 
+position:absolute; bottom: 230px;      
+position:absolute; left:300px 
+position:absolute; right:250px
+}
+
+.active-pink-2 input[type=text]:focus:not([readonly]) {
+border-bottom: 1px solid #f48fb1;
+box-shadow: 0 1px 0 0 #f48fb1;
+}
+
+#sidebar-wrapper{
+	background-color: #211f1e;
+	
+ 
+
+}
+
+
+
+#lateralbuttons{
+	position:absolute; top:100px; 
+position:absolute; bottom:50px; 
+}
+
+#imgfarma{
+	position:absolute; top:50px; 
+position:absolute; bottom:50px;
+  
+
+}
+#imgfarma2{
+	width:50px;
+    height:50px;
+    border-radius:160px;
+    border:5px solid #666;
+}
+
+.micolor{
+		color: #000000;
+	background-color: #c6b2a7;
+}
+#copyright{
+position: absolute;top:630px;
+position: absolute;bottom: 100px;
+position: absolute;right: 100px;
+position: absolute;left: 500px;
+
+}
+.th-list{
+color: white;
+
+}
+
+.container-4{
+  overflow: hidden;
+  width: 300px;
+  vertical-align: middle;
+  white-space: nowrap;
+}
+#agregar{
+  background-color: #50369b;
+  position: relative;top: 20px;
+  position: relative;bottom: 200px;
+  position: relative;right: 100px;
+  position: relative;left: 100px;
+
+}
+#contactar{
+
+  position: relative; top: 50px;
+  position: relative;bottom: 200px;
+  position: relative;right: 200px;
+  position: relative;left: 400px;
+}
+
+#mapa{
+  position: relative; top: 50px;
+  position: relative;bottom: 200px;
+  position: relative;right: 200px;
+  position: relative;left: 400px;
+
+}
+
+#tablalista2{
+position: relative; top: 50px;
+  position: relative;bottom: 200px;
+  position: relative;right: 20px;
+  position: relative;left: 10px;
+
+}
+#categories{
+  position: relative; top: 200px;
+  position: relative;bottom: 200px;
+  position: relative;right: 20px;
+  position: relative;left: 150px;
+  font-size: 20px;
+  font-family: "Verdana";
+  
+}
+#tablaempleados{
+  position: relative; top: 650px;
+  position: relative;bottom: 100px;
+  position: relative;right: 20px;
+  position: relative;left: 10px;
+}
+.table-bordered{
+
+position: relative; top: 100px;
+  position: relative;bottom: 100px;
+  position: relative;right: 20px;
+  position: relative;left: 10px;
+  font-family: "Verdana";
+  
+}
+
+
