@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, shrink-to-fit=no, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <head>
+<link rel="shortcut icon" href="to_ico.ico">
+</head>
+
+    <title> Farmacia FRANJAMAR</title>
+    
+   
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/simple-sidebar.css" rel="stylesheet">
+     <link rel="stylesheet" type="text/css" href="style.css">
+
+</head>
+
+<body>
+
+    <div id="wrapper">
+
+        <!-- Sidebar -->
+        <div id="sidebar-wrapper">
+            <ul class="sidebar-nav">
+                <li id="imgfarma">
+                    <a href="index.php">
+                    	<img id ="imgfarma2"src="logofarma.jpg">
+                       <font color="white" size="3" face="Comic Sans MS,arial,verdana">Farmacia FRANJAMAR</font>
+                    </a>
+                </li>
+                <div id="lateralbuttons">
+                <li>
+                    <a href="Buscar.php"><font color="white" size="3" face="Comic Sans MS,arial,verdana">Buscar Medicamentos</font>
+<span style="color:white"class="glyphicon glyphicon-search"></span>
+                    </a>
+                      
+                </li>
+                <li>
+                    <a href="Categorias.php"><font color="white" size="3" face="Comic Sans MS,arial,verdana">Categorias</font><span style="color:white" class="glyphicon glyphicon-th-list"></span></a>
+                </li>
+                <li>
+                    <a href="Lista.php"><font color="white" size="3" face="Comic Sans MS,arial,verdana">Lista de Medicamentos</font><span style="color:white" class="glyphicon glyphicon-list"></span></a>
+                </li>
+                <li>
+                    <a href="Agregar.php"  data-toggle="modal" data-target="#registerModal"><font color="white" size="3" face="Comic Sans MS,arial,verdana">Añadir Medicamento</font><span style="color:white" class="glyphicon glyphicon-plus-sign"></span> 
+                   </a>
+                </li>
+                <li>
+                   <a href="Update.php"><font color="white" size="3" face="Comic Sans MS,arial,verdana">Actualizar inventario</font>
+<span style="color:white" class="glyphicon glyphicon-edit"></span>
+                   </a> 
+                   </li>
+                <li>
+                   <a href="logout.php"><font color="white" size="3" face="Comic Sans MS,arial,verdana">Cerrar Sesion</font>
+                   <span style="color:white" class="glyphicon glyphicon-lock"></span> 
+                   </a> 
+                   </li>
+                </div>   
+            </ul>
+        </div>
+        <!-- /#sidebar-wrapper -->
+
+        <!-- Page Content -->
+        
+        
+       <nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <div class="navbar-brand" href="index.php">Farmacia FRANJAMAR</div>
+    </div>
+    <ul class="nav navbar-nav">
+      <li class="active"><a href="index.php">INICIO</a></li>
+      <li><a href="Contactos.html">CONTACTOS</a></li>
+    </ul>
+  </div>
+</nav>
+ <div id="contactar"class="one_third">
+      <h6><font color="black" size="5" face="Comic Sans MS,arial,verdana">UBICANOS</font></h6>
+      <ul class="nospace btmspace-30 linklist contact">
+        <li>
+          <address>
+          <font color="black" size="4" face="verdana">CALLE 18 LOCAL 1-26 SECTOR SIERRA MAESTRA</font>
+
+          </address>
+        </li>
+        <font color="black" size="4" face="Comic Sans MS,arial,verdana">TELEFONOS:</font></li>
+        <li><font color="black" size="4" face="verdana">+58 (424) 630 6766</font></li>
+        <li><font color="black" size="4" face="verdana">+58 (424) 670 3258</font></li>
+        <li><font color="black" size="4" face="verdana">farmaciasfranjamar@gmail.com</font></li>
+      </ul>
+
+    </div>
+
+<p id="copyright"><font color="black" size="3" face="Comic Sans MS,arial,verdana">Copyright &copy; 2019 - Derechos Reservados - Farmacia Franjamar C.A</font></p>
+<iframe  id ="mapa"src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3921.9506914312665!2d-71.65200724978507!3d10.583028292415902!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e8997392a6b2a45%3A0xa819f023597524a5!2sFarmacia%20Franjamar!5e0!3m2!1ses-419!2sve!4v1571085499871!5m2!1ses-419!2sve" width="300" height="300" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+
+        <!-- /#page-content-wrapper -->
+
+    
+    
+   
+    
+
+    
+<div class="modal fade" id="registerModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Agregar</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <p>Añadir Medicamento</p><button id="enter"></button>
+        <br>
+        <br>
+        <p>Nombre</p><input id="emailInputR">
+        <br>
+        <p>Componente</p><input id="emailInputR2">
+        <br>
+        <p>Sustituto</p><input id="pwInputR">
+        <br>
+      </div>
+    </div>
+  </div>
+</div>
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- Menu Toggle Script -->
+    <script>
+    $("#menu-toggle").click(function(e) {
+        e.preventDefault();
+        $("#wrapper").toggleClass("toggled");
+    });
+    </script>
+
+</body>
+
+</html>
